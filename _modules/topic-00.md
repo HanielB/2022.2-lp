@@ -11,3 +11,4 @@ title: Topic 00 - Course introduction and overview
 : **Course introduction**
   : [Grading]({{ site.baseurl }}{% link grading.md %}),
   : [Slides]({{ site.baseurl }}{% link _lessons/00-course_intro/00-course-intro.pdf %})
+  : [Recording](https://youtu.be/KSJkpqxZBew)
