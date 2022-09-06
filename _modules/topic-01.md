@@ -19,7 +19,7 @@ title: Topic 01 - SML introduction
 
 05 Sep
 : [**Polymorphism**]({{ site.baseurl }}{% link _lessons/04-polymorphism/polymorphism.md %})
-  : [Recording](https://us06web.zoom.us/rec/share/qnN7J2EvAvsfzknMgUqSKjK3QS6sNvjJ75fp1GvWG5DdxS3_MPRwgPJoEV1ZWGxT._GLBq-9kLbNcf6lc?startTime=1662408296000) (password: .MDc%LC8)
+  : [Recording][https://us06web.zoom.us/rec/share/a3-SvoIN-bYHD5Jz4lgK0b40vJ3cZmFAenDXpEZePFMpANIAurxU0ZKTmd9MCjR0.gICO_f-kkRGBYG4F?startTime=1662415460000] (password: j436yE7=)
   : [Old recorded lecture](https://www.youtube.com/playlist?list=PLeIbBi3CwMZwmgIVh73e1zWAvMfxiuZkR)
 
 14 Sep
