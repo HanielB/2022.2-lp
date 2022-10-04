@@ -103,7 +103,7 @@ Plus(v1, v2) -> v1 + v2           Minus(v1, v2) -> v1 - v2
 
  ```
  E1 -> v1      E2 -> v2              E1 -> v1      E2 -> v2
-------------------------EvAnd     --------------------------EvMinus
+------------------------EvAnd     --------------------------EvOr
 And(E1, E2) -> v1 ∧ v2               Or(E1, E2) -> v1 v v2
 
                                     E -> v
@@ -253,7 +253,7 @@ P1 -> stuck iff P2 -> stuck
 
 [Satisfiability Modulo Theories (SMT)](https://en.wikipedia.org/wiki/Satisfiability_Modulo_Theories) is the satisfiability problem in first-order logic modulo a set of background theories. Thus one asks whether a given formula is satisfiable according to a fixed interpretation of some symbols (for example that the symbol `+` in a formula refers to arithmetic addition).
 
-The [cvc5 SMT solver](https://cvc5.github.io/) is a state-of-the-art solver for SMT problems. It can attempt to solve any problem formulated in SMT. The system accepts [SMT-LIB](https://smtlib.cs.uiowa.edu/) as an input format as well as multiple APIs (in [Python](https://cvc5.github.io/docs/cvc5-1.0.0/api/python/python.html), [C++](https://cvc5.github.io/docs/cvc5-1.0.0/api/cpp/cpp.html), and [Java](https://cvc5.github.io/docs/cvc5-1.0.0/api/java/java.html)).
+The [cvc5 SMT solver](https://cvc5.github.io/) is a state-of-the-art solver for SMT problems. It can attempt to solve any problem formulated as an SMT problem. The system accepts [SMT-LIB](https://smtlib.cs.uiowa.edu/) as an input format and also provides APIs (in [Python](https://cvc5.github.io/docs/cvc5-1.0.0/api/python/python.html), [C++](https://cvc5.github.io/docs/cvc5-1.0.0/api/cpp/cpp.html), and [Java](https://cvc5.github.io/docs/cvc5-1.0.0/api/java/java.html)).
 
 ### Program equivalence
 
@@ -263,7 +263,7 @@ To install `cvc5` and use it in Python you can do (with an up to date Python ins
 pip install cvc5
 ```
 
-To check in SMT the equivalence of two programs we need to encode the language of these programs into the SMT language. SMT solvers have builtin support for Boolean and Integer arithmetic, as well as if-then-else and variable assignment. Therefore we can directly encode our expression language into it.
+To check via SMT the equivalence of two programs we need to encode the language of these programs into the SMT language. SMT solvers have builtin support for Boolean and Integer arithmetic, as well as if-then-else and variable assignment. Therefore we can directly encode our expression language into it.
 
 Given our equivalence problem
 
