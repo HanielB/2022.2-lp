@@ -23,3 +23,13 @@ title: Topic 02 - Syntax and semantics of programming languages
 
 05 Oct
 : [**Program equivalence as SMT**]({{ site.baseurl }}{% link _lessons/06-languages/formal-semantics.md %})
+
+10 Oct
+: [**Formal semantics**]({{ site.baseurl }}{% link _lessons/06-languages/formal-semantics.md %}): Lambda calculus
+  : [Old recorded lecture](https://youtube.com/playlist?list=PLeIbBi3CwMZxFVZX1yGTiGiJO7gWd4YJ5)
+
+17 Oct
+: **Exam 1**
+
+19 Oct
+: Tutorial for Project 1
