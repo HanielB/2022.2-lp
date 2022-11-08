@@ -1,7 +1,10 @@
 ---
 layout: page
-title: Abstraction and Abstract Data Types
+title: Abstraction, Abstract Data Types and Object Orientation
 ---
+
+- TOC
+{:toc}
 
 # Readings
 
@@ -15,7 +18,6 @@ title: Abstraction and Abstract Data Types
 - [Object-oriented programming](http://en.wikipedia.org/wiki/Object-oriented_programming)
 
 # Abstraction and Abstract Data Types
-{: .no_toc .mb-2 }
 
 - Abstraction.
 
@@ -24,10 +26,6 @@ title: Abstraction and Abstract Data Types
 - How to use them in C, SML, Python.
 
 # Object orientation
-{: .no_toc .mb-2 }
-
-- TOC
-{:toc}
 
 ## Topics covered
 
