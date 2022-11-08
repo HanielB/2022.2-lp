@@ -22,7 +22,7 @@ url: 'https://hanielb.github.io'
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
 # Theme settings
-remote_theme: pdmosses/just-the-docs@pages-and-collections
+remote_theme: pmarsceill/just-the-docs
 color_scheme: light
 search_enabled: true
 heading_anchors: true
